@@ -4,6 +4,7 @@ import 'login_page.dart';
 main(List<String> args) => runApp(new MyApp());
 
 // Класс приложения
+// MaterialApp -> Scafold -> Container -> Column
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) => new MaterialApp(
